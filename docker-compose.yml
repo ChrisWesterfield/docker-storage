@@ -3,4 +3,6 @@ services:
   storage:
     build:
       context: .
-    image: augustash/storage
+    image: augustash/storage:1.0.0
+    labels:
+      - "com.augustash.development-only"
